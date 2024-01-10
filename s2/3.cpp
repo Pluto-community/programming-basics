@@ -2,9 +2,9 @@
 using namespace std; 
 
 int main(){
-    int a , b ,c; 
+    float a , b ,c; 
     cin >> a >> b >> c; 
-    int average = (a+b+c)/3; 
+    float average = (a+b+c)/3; 
     cout << average;
     return 0;
 }
