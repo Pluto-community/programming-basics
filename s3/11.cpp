@@ -14,7 +14,7 @@ int main(){
         return false;
     }
     // logic 
-    count = (m < 6) ? (m-1)*31 : (5*31 + (m-6)*30);
+    count = (m <= 6) ? (m-1)*31 : (5*31 + (m-6)*30);
     count += d;
     int what_day = count % 7; 
     switch(what_day){
